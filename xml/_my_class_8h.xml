@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="_my_class_8h" kind="file" language="C++">
+    <compoundname>MyClass.h</compoundname>
+    <includedby refid="main_8cpp" local="no">main.cpp</includedby>
+    <invincdepgraph>
+      <node id="1">
+        <label>MyClass.h</label>
+        <link refid="_my_class_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>main.cpp</label>
+        <link refid="main_8cpp"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="class_my_class1" prot="public">MyClass1</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"></codeline>
+<codeline lineno="9" refid="class_my_class1" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_my_class1" kindref="compound">MyClass1</ref></highlight></codeline>
+<codeline lineno="10"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21" refid="class_my_class1_1a55e05eea32095c4e52d849dc7cb2ac43" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_my_class1_1a55e05eea32095c4e52d849dc7cb2ac43" kindref="member">exampleFunction</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>a,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>b);</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23" refid="class_my_class1_1a77fa563e525ee9ba37eb428cc12244f7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_my_class1_1a77fa563e525ee9ba37eb428cc12244f7" kindref="member">anotherExampleFunction</ref>();</highlight></codeline>
+<codeline lineno="24" refid="class_my_class1_1ae869f4b0728052f3d5093ff1c4c8d582" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_my_class1_1ae869f4b0728052f3d5093ff1c4c8d582" kindref="member">anotherExampleFunction2</ref>();</highlight></codeline>
+<codeline lineno="25"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="MyClass.h"/>
+  </compounddef>
+</doxygen>

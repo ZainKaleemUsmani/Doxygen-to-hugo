@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="md__documentation_pages_mainpage" kind="page">
+    <compoundname>md_Documentation_pages_mainpage</compoundname>
+    <title>Main Page</title>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><anchor id="md__documentation_pages_mainpage_1mainpage"/></para>
+<para>namespaces ##namespaces </para>
+    </detaileddescription>
+    <location file="Documentation_pages/mainpage.md"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="md__documentation_pages__index" kind="page">
+    <compoundname>md_Documentation_pages__index</compoundname>
+    <title>Main Page</title>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><anchor id="md__documentation_pages__index_1mainpage"/></para>
+<sect2 id="md__documentation_pages__index_1autotoc_md0">
+<title>Listing Namespaces</title>
+<para><table rows="3" cols="2"><row>
+<entry thead="yes"><para>Namespaces   </para>
+</entry><entry thead="yes"><para>Description    </para>
+</entry></row>
+<row>
+<entry thead="no"><para>namespaces   </para>
+</entry><entry thead="no"><para>Content Cell    </para>
+</entry></row>
+<row>
+<entry thead="no"><para>namespaces   </para>
+</entry><entry thead="no"><para>Content Cell   </para>
+</entry></row>
+</table>
+</para>
+</sect2>
+    </detaileddescription>
+    <location file="Documentation_pages/_index.md"/>
+  </compounddef>
+</doxygen>

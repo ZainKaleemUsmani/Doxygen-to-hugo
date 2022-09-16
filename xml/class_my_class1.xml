@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="class_my_class1" kind="class" language="C++" prot="public">
+    <compoundname>MyClass1</compoundname>
+    <includes refid="_my_class_8h" local="no">MyClass.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_my_class1_1a55e05eea32095c4e52d849dc7cb2ac43" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MyClass1::exampleFunction</definition>
+        <argsstring>(int a, int b)</argsstring>
+        <name>exampleFunction</name>
+        <qualifiedname>MyClass1::exampleFunction</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>This is a brief description for the function. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>a</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>This describes the first parameter </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>b</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>This describes the second parameter </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>the value when both the parameters are used in some operation </para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="class_my_class1_1a77fa563e525ee9ba37eb428cc12244f7" kindref="member">anotherExampleFunction()</ref> <ref refid="class_my_class1_1ae869f4b0728052f3d5093ff1c4c8d582" kindref="member">anotherExampleFunction2()</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MyClass.h" line="21" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="class_my_class1_1a77fa563e525ee9ba37eb428cc12244f7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MyClass1::anotherExampleFunction</definition>
+        <argsstring>()</argsstring>
+        <name>anotherExampleFunction</name>
+        <qualifiedname>MyClass1::anotherExampleFunction</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MyClass.h" line="23" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="class_my_class1_1ae869f4b0728052f3d5093ff1c4c8d582" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MyClass1::anotherExampleFunction2</definition>
+        <argsstring>()</argsstring>
+        <name>anotherExampleFunction2</name>
+        <qualifiedname>MyClass1::anotherExampleFunction2</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MyClass.h" line="24" column="10"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This is a brief description of the Class. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>This is a <emphasis>detailed</emphasis> description of the Class. An <bold>Example</bold> is shown below:-</para>
+<sect3 id="class_my_class1_1autotoc_md1">
+<title>Example:</title>
+<para><programlisting filename=".cpp"><codeline><highlight class="normal">MyClass*<sp/>a<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>MyClass();<sp/></highlight><highlight class="comment">//<sp/>this<sp/>is<sp/>a<sp/>comment</highlight></codeline>
+</programlisting> </para>
+</sect3>
+    </detaileddescription>
+    <location file="MyClass.h" line="9" column="1" bodyfile="MyClass.h" bodystart="10" bodyend="25"/>
+    <listofallmembers>
+      <member refid="class_my_class1_1a77fa563e525ee9ba37eb428cc12244f7" prot="public" virt="non-virtual"><scope>MyClass1</scope><name>anotherExampleFunction</name></member>
+      <member refid="class_my_class1_1ae869f4b0728052f3d5093ff1c4c8d582" prot="public" virt="non-virtual"><scope>MyClass1</scope><name>anotherExampleFunction2</name></member>
+      <member refid="class_my_class1_1a55e05eea32095c4e52d849dc7cb2ac43" prot="public" virt="non-virtual"><scope>MyClass1</scope><name>exampleFunction</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
